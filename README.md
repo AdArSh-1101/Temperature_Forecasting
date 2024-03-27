@@ -47,7 +47,7 @@ The dataset used in this project contains historical surface temperature data fo
 
 ## Project Structure
 - `data.csv`: Input dataset containing historical temperature data.
-- `Untitled.ipynb`: Jupyter notebook containing the project code.
+- `Temperature.ipynb`: Jupyter notebook containing the project code.
 - `README.md`: Project documentation.
 
 ## Instructions
