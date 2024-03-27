@@ -52,7 +52,7 @@ The dataset used in this project contains historical surface temperature data fo
 
 ## Instructions
 1. Ensure all dependencies are installed.
-2. Run the `Untitled.ipynb` notebook to execute the project code.
+2. Run the `Temperature.ipynb` notebook to execute the project code.
 3. Follow the instructions provided in the notebook to preprocess data, perform EDA, train models, and evaluate results.
 4. Experiment with different parameters, architectures, and algorithms to improve forecasting accuracy.
 
