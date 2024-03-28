@@ -63,3 +63,4 @@ The dataset used in this project contains historical surface temperature data fo
 3. Follow the instructions provided in the web application to input date(s) and obtain temperature prediction(s) or plot temperature vs. time graph.
 4. Experiment with different input dates and date ranges to explore temperature forecasts.
 5. For more detailed exploration and model development, refer to the `Temperature.ipynb` notebook.
+6. For better understanding, refer to the 'Time-Series-Analysis-of-bbsr-Temperature.pptx' powerpoint presentation.
