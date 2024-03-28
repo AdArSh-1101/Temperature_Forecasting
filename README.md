@@ -29,6 +29,11 @@ The dataset used in this project contains historical surface temperature data fo
 - Model checkpoints are saved to track the best performing model during training.
 - LSTM model is trained for multiple epochs to capture temporal dependencies.
 
+## Streamlit Implementation
+- The model has been implemented into a Streamlit web application (`app.py`).
+- Users can input a date to get a temperature prediction.
+- Users can also input a range of dates to plot the temperature vs. time graph.
+
 ## Results
 - Forecasted temperatures from both ARIMA and LSTM models are visualized and compared with observed temperatures.
 - Performance metrics such as MSE and RMSE are calculated for both models.
@@ -44,16 +49,17 @@ The dataset used in this project contains historical surface temperature data fo
 - scikit-learn
 - tensorflow
 - keras
+- streamlit
 
 ## Project Structure
 - `data.csv`: Input dataset containing historical temperature data.
+- `app.py`: Streamlit web application for temperature forecasting.
 - `Temperature.ipynb`: Jupyter notebook containing the project code.
 - `README.md`: Project documentation.
 
 ## Instructions
 1. Ensure all dependencies are installed.
-2. Run the `Temperature.ipynb` notebook to execute the project code.
-3. Follow the instructions provided in the notebook to preprocess data, perform EDA, train models, and evaluate results.
-4. Experiment with different parameters, architectures, and algorithms to improve forecasting accuracy.
-
-
+2. Run the Streamlit web application by executing `streamlit run app.py`.
+3. Follow the instructions provided in the web application to input date(s) and obtain temperature prediction(s) or plot temperature vs. time graph.
+4. Experiment with different input dates and date ranges to explore temperature forecasts.
+5. For more detailed exploration and model development, refer to the `Temperature.ipynb` notebook.
